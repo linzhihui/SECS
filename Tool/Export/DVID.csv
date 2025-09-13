@@ -1,0 +1,2 @@
+DVID(ushort型),Name,DataType,Format,Unit,MinValue,MaxValue,Default,Description
+3000,测试状态,DV,INT_8B,毫米,0,1,2,沙发发

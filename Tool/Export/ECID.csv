@@ -1,0 +1,2 @@
+ECID(ushort型),Name,DataType,Format,Unit,MinValue,MaxValue,Default,Description
+6000,设备状态,EC,INT_8B,毫米,0,1,2,沙发发

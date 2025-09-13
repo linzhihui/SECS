@@ -1,0 +1,2 @@
+SVID(ushort型),Name,DataType,Format,Unit,MinValue,MaxValue,Default,Description
+2000,PROCESS_STATUS,SV,INT_4B,无,0,1,0,设备处理状态 0=停止 1=加工中 2=暂停

@@ -1,0 +1,35 @@
+Send: =28bytes  [S1F13W] , {14:22:19:688ms}
+  <L, 2
+    <ASCII,4,'9300'>
+    <ASCII,8,'V2.0.1.9'>
+  >
+Recv: =10bytes [Select_req] , {14:22:19:735ms}
+Send: =10bytes [Select_rsp] , {14:22:19:755ms}
+Send: =10bytes  [S1F1W] , {14:22:19:975ms}
+Recv: =17bytes  [S1F14] , {14:22:19:984ms}
+  <L, 2
+    <B,1,0>
+    <L, 0
+    >
+  >
+Recv: =12bytes  [S1F2] , {14:22:20:100ms}
+  <L, 0
+  >
+Send: =10bytes [Linktest_req] , {14:22:21:985ms}
+Recv: =10bytes [Linktest_rsp] , {14:22:21:988ms}
+Send: =10bytes [Linktest_req] , {14:22:26:563ms}
+Recv: =10bytes [Linktest_rsp] , {14:22:26:566ms}
+Send: =28bytes  [S1F13W] , {14:22:42:662ms}
+  <L, 2
+    <ASCII,4,'MDLN'>
+    <ASCII,8,'v2.0.1.9'>
+  >
+Recv: =17bytes  [S1F14] , {14:22:42:814ms}
+  <L, 2
+    <B,1,0>
+    <L, 0
+    >
+  >
+Send: =10bytes [Linktest_req] , {14:22:52:013ms}
+Recv: =10bytes [Linktest_rsp] , {14:22:52:016ms}
+Send: =10bytes [Separate_req] , {14:22:54:279ms}

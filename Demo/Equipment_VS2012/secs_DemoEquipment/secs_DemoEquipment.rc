@@ -1,0 +1,225 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\secs_DemoEquipment.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\secs_DemoEquipment.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SECS_DEMOEQUIPMENT_DIALOG DIALOGEX 0, 0, 743, 561
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "secs_Equipment模拟端-设备端-Passive模式"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "S1F1",IDC_BTN_S1F1,353,166,36,22,WS_DISABLED
+    PUSHBUTTON      "S1F3",IDC_BTN_S1F3,354,193,36,22,WS_DISABLED
+    PUSHBUTTON      "S1F11",IDC_BTN_S1F11,354,217,36,22,WS_DISABLED
+    PUSHBUTTON      "S1F13",IDC_BTN_S1F13,354,241,36,22
+    EDITTEXT        IDC_EDIT_RECV,7,7,47,16,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "S1F15",IDC_BTN_S1F15,354,265,36,22,WS_DISABLED
+    PUSHBUTTON      "S2F13",IDC_BTN_S2F13,354,291,36,22,WS_DISABLED
+    PUSHBUTTON      "S2F15",IDC_BTN_S2F15,542,166,36,22,WS_DISABLED
+    PUSHBUTTON      "S2F17",IDC_BTN_S2F17,542,193,36,22
+    PUSHBUTTON      "S2F21",IDC_BTN_S2F21,404,166,36,22,WS_DISABLED
+    PUSHBUTTON      "S2F23",IDC_BTN_S2F23,404,193,36,22,WS_DISABLED
+    PUSHBUTTON      "S2F31",IDC_BTN_S2F31,404,217,36,22,WS_DISABLED
+    PUSHBUTTON      "S2F35",IDC_BTN_S2F35,404,241,36,22,WS_DISABLED
+    PUSHBUTTON      "S2F37",IDC_BTN_S2F37,404,265,36,22,WS_DISABLED
+    PUSHBUTTON      "S2F41",IDC_BTN_S2F41,404,291,36,22,WS_DISABLED
+    PUSHBUTTON      "S5F1",IDC_BTN_S5F1,582,166,36,22
+    PUSHBUTTON      "S5F3",IDC_BTN_S5F3,582,193,36,22,WS_DISABLED
+    PUSHBUTTON      "S5F5",IDC_BTN_S5F5,453,166,36,22,WS_DISABLED
+    PUSHBUTTON      "S5F7",IDC_BTN_S5F7,453,193,36,22,WS_DISABLED
+    PUSHBUTTON      "S6F1",IDC_BTN_S6F1,453,217,36,22
+    PUSHBUTTON      "S6F11",IDC_BTN_S6F11,453,241,36,22
+    PUSHBUTTON      "S7F1",IDC_BTN_S7F1,453,265,36,22
+    PUSHBUTTON      "S7F3",IDC_BTN_S7F3,453,291,36,22
+    PUSHBUTTON      "S7F5",IDC_BTN_S7F5,622,166,36,22
+    PUSHBUTTON      "S7F17",IDC_BTN_S7F17,622,193,36,22,WS_DISABLED
+    PUSHBUTTON      "S7F19",IDC_BTN_S7F19,500,166,36,22,WS_DISABLED
+    PUSHBUTTON      "S10F3",IDC_BTN_S10F3,500,193,36,22,WS_DISABLED
+    PUSHBUTTON      "S14F1",IDC_BTN_S14F1,665,166,44,22,NOT WS_VISIBLE
+    PUSHBUTTON      "S12F3",IDC_BTN_S12F3,500,217,36,22,NOT WS_VISIBLE
+    PUSHBUTTON      "S12F15",IDC_BTN_S12F15,500,241,36,22,NOT WS_VISIBLE
+    PUSHBUTTON      "S12F1",IDC_BTN_S12F1,500,265,36,22,NOT WS_VISIBLE
+    PUSHBUTTON      "S12F9",IDC_BTN_S12F9,500,291,36,22,NOT WS_VISIBLE
+    LISTBOX         IDC_LIST1,7,7,324,547,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Control Message",IDC_STATIC,337,7,390,76
+    GROUPBOX        "Data Message(Sn,Fn)",IDC_STATIC,337,84,390,241
+    PUSHBUTTON      "Select_req",IDC_BUTTON_Select_req,351,23,64,22,WS_DISABLED
+    PUSHBUTTON      "Select_rsp",IDC_BUTTON_Select_rsp,351,56,64,22
+    PUSHBUTTON      "Deselect_req",IDC_BUTTON_Deselect_req,424,23,64,22,WS_DISABLED
+    PUSHBUTTON      "Deselect_rsp",IDC_BUTTON_Deselect_rsp,424,56,64,22
+    PUSHBUTTON      "Linktest_req",IDC_BUTTON_linktest_req,497,23,64,22
+    PUSHBUTTON      "Linktest_rsp",IDC_BUTTON_Linktest_rsp,497,56,64,22
+    PUSHBUTTON      "Reject_req",IDC_BUTTON_Reject_req,576,23,64,22,WS_DISABLED
+    PUSHBUTTON      "Separate_req",IDC_BUTTON_Separate_req,576,56,64,22,WS_DISABLED
+    LTEXT           "备注：灰色是方向从 Host—>Equipment发消息，请在Host端发消息过来",IDC_STATIC,343,112,253,8
+    LTEXT           "启用按钮表示方向从Equipment—>Host端，可在这里向Host发消息",IDC_STATIC,366,133,233,8
+    LTEXT           "",IDC_STATIC_SHOWPANEL,549,249,160,68
+    LTEXT           "针对S2F21,S2F41,S10F3的显示板",IDC_STATIC,552,233,117,8
+    PUSHBUTTON      "S5F1Clear",IDC_BTN_S6F11Clear,665,193,45,22
+    PUSHBUTTON      "<-清除",IDC_BUTTON_CLEAR_LIST,334,329,29,18
+    EDITTEXT        IDC_EDIT1,335,349,394,205,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "china"
+            VALUE "FileDescription", "peixuewen"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "secs_Eqp.exe"
+            VALUE "LegalCopyright", "china。保留所有权利。"
+            VALUE "OriginalFilename", "secs_Eqp.exe"
+            VALUE "ProductName", "secs_Eqp"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SECS_DEMOEQUIPMENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 736
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 554
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 套接字初始化失败。"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\secs_DemoEquipment.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

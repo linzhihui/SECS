@@ -1,0 +1,18 @@
+Send: =28bytes  [S1F13W] , {15:41:30:158ms}
+  <L, 2
+    <ASCII,4,'9300'>
+    <ASCII,8,'V2.0.1.9'>
+  >
+Recv: =10bytes [Select_req] , {15:41:30:189ms}
+Send: =10bytes [Select_rsp] , {15:41:30:205ms}
+Recv: =17bytes  [S1F14] , {15:41:30:424ms}
+  <L, 2
+    <B,1,0>
+    <L, 0
+    >
+  >
+Send: =10bytes  [S1F1W] , {15:41:30:455ms}
+Recv: =12bytes  [S1F2] , {15:41:30:611ms}
+  <L, 0
+  >
+Send: =10bytes [Separate_req] , {15:42:01:497ms}
